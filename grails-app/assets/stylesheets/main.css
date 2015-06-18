@@ -44,7 +44,7 @@ body{
 .headerArea:after{
 	content:"";
 	display:block;
-	clear:block;
+	clear:both;
 }
 .header_main{
 	max-width:1200px;
@@ -178,7 +178,8 @@ body{
 
 .field{
 	color:#FFFFFF;
-	background:#314356;
+	/*background:pink;*/
+	background: #314356;
 	border-radius:4px;
 	font-size:18px;
 	padding:10px;
@@ -190,7 +191,7 @@ body{
 	padding: 0 0 0 10px;
 	margin: 21px 0 0 0;
 }
-input[type="name"],input[type="number"],input[type="mail"],select{
+input[type="name"],input[type="address"],input[type="number"],input[type="mail"],select{
 	width:100%;
 	background: #758492;
 	border: none;
@@ -211,7 +212,7 @@ input[type="name"],input[type="number"],input[type="mail"],select{
 }
 .field button{
 	background:#24313D;
-	margin-top:40px ;
+	margin-top:20px ;
 }
 .field a{
 	text-decoration:underline;
@@ -257,7 +258,10 @@ input[type="name"],input[type="number"],input[type="mail"],select{
 /*-------end of section-------------------------*/
 .foot{
 	max-width:1200px;
-	margin:0 auto;
+	margin-top: 4em;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
 	background:rgba(30,56,91,.5);
 	padding: 15px;
 	border-radius: 5px 5px 0 0;
@@ -298,7 +302,7 @@ input[type="name"],input[type="number"],input[type="mail"],select{
 	font-size:18px;
 	line-height:1.3;
 	color:#000;
-	background:url('img/hover.png')no-repeat;
+	/*background:url('img/hover.png')no-repeat;*/
 	background-size: cover;
 	width: 419px;
 	height: 166px;

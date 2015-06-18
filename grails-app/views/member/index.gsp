@@ -16,50 +16,62 @@
 <section>
     <div class="content_area">
         <div class="col-sm-3"></div>
+
         <div class="col-sm-9">
             <div class="spag_content">
                 <div class="row">
                     <div class="col-sm-9 col-xs-12">
                         <p>As a part of your Business Identity Management product you receive a complimentary personal identity management membership. Please use this portal to activate your membership to turn on your personal credit monitoring.</p>
+
                         <div class="field">
                             <div class="row">
                                 <div class="col-sm-6 col-xs-12">
-                                    <p> First Name</p>
-                                    <input  class="fname" type="name" />
+                                    <p>First Name</p>
+                                    <input class="fname" type="name"/>
                                 </div>
+
                                 <div class="col-sm-6 col-xs-12">
                                     <p>Last Name</p>
-                                    <input class="lname" type="name" />
+                                    <input class="lname" type="name"/>
                                 </div>
                             </div>
+
                             <div class="clear"></div>
+
                             <div class="row">
                                 <div class="col-sm-6 col-xs-12 ">
                                     <p>Email</p>
-                                    <input type="mail" />
+                                    <input type="mail"/>
                                 </div>
+
                                 <div class="col-sm-6 col-xs-12">
                                     <p>Phone</p>
-                                    <input type="number" />
+                                    <input type="number"/>
                                 </div>
                             </div>
+
                             <div class="clear"></div>
+
                             <div class="row">
                                 <div class="col-sm-6 col-xs-12 ">
                                     <p>Address 1</p>
-                                    <input type="name" />
+                                    <input type="name"/>
                                 </div>
+
                                 <div class="col-sm-6 col-xs-12">
                                     <p>Address 2</p>
-                                    <input type="name" />
+                                    <input type="name"/>
                                 </div>
                             </div>
+
                             <div class="clear"></div>
+
                             <div class="row">
                                 <div class="col-sm-6 col-xs-6">
                                     <p>City</p>
-                                    <input class="city" type="name" />
+                                    <input class="city" type="name"/>
                                 </div>
+
                                 <div class="col-sm-2 col-xs-4">
                                     <p>State</p>
                                     <select name="state">
@@ -117,32 +129,39 @@
                                     </select>
 
                                 </div>
+
                                 <div class="col-sm-4 col-xs-12">
                                     <p>Zip</p>
-                                    <input class="zip" type="number" />
+                                    <input class="zip" type="number"/>
                                 </div>
                             </div>
+
                             <div class="clear"></div>
+
                             <div class="row">
                                 <div class="col-sm-5 ">
                                     <p>Social Security Number</p>
+
                                     <div class="row">
                                         <div class="col-sm-4 col-xs-4">
-                                            <input maxlength="3" required pattern="^d{3}$" type="name" />
+                                            <input maxlength="3" required pattern="^d{3}$" type="name"/>
                                         </div>
-                                        <div style="padding:0;"class="col-sm-3 col-xs-4">
-                                            <input maxlength="2" required pattern="^d{2}$" type="name" />
+
+                                        <div style="padding:0;" class="col-sm-3 col-xs-4">
+                                            <input maxlength="2" required pattern="^d{2}$" type="name"/>
                                         </div>
+
                                         <div class="col-sm-5 col-xs-4">
                                             <input maxlength="4" required pattern="^d{4}$" type="name"/>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-sm-5 col-sm-offset-2 col-xs-12">
+
+                                <div class="col-sm-5 col-sm-offset-2 col-xs-12" style="padding-right: 1.5em">
                                     <p>Date of Birth</p>
                                     <div class="row">
-                                        <div class="col-sm-12 col-xs-4">
-                                            <input type='name' class="form-control" />
+                                        <div class='input-group date' id='datetimepicker1'>
+                                            <input type='address' class="datepicker" />
                                             <span class="input-group-addon">
                                                 <span class="glyphicon glyphicon-calendar"></span>
                                             </span>
@@ -151,12 +170,19 @@
                                 </div>
 
                             </div>
-                            <div align="right"><button>Submit  &nbsp;&nbsp;<i class="fa fa-arrow-circle-right"></i></button></div>
+                            <div class="clear"></div>
+
+                            <div class="row">
+                                <div class="col-sm-3 col-sm-offset-5"></div>
+                                <div align="right" class="col-sm-4 "><button>Submit  &nbsp;&nbsp;<i class="fa fa-arrow-circle-right"></i>
+                                </button></div>
+                            </div>
                         </div>
                     </div>
+
                     <div class="col-sm-3 col-xs-12">
                         <div class="reg_img">
-                            <img src="${assetPath(src: 'image3.png')}" alt="" />
+                            <img src="${assetPath(src: 'image3.png')}" alt=""/>
                         </div>
                     </div>
 
@@ -165,6 +191,7 @@
         </div>
     </div>
 </section>
+
 <div class="clear"></div>
 </body>
 </html>

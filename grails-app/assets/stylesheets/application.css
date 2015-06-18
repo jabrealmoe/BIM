@@ -11,6 +11,7 @@
 *= require font-awesome.min
 *= require bootstrap.min
 *= require bootstrap-theme.min
+*= require datepicker
 *= require mobile
 *= require_self
 */
