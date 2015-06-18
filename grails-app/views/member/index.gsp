@@ -34,11 +34,11 @@
                             </div>
                             <div class="clear"></div>
                             <div class="row">
-                                <div class="col-sm-7 col-xs-12 ">
+                                <div class="col-sm-6 col-xs-12 ">
                                     <p>Email</p>
                                     <input type="mail" />
                                 </div>
-                                <div class="col-sm-5 col-xs-12">
+                                <div class="col-sm-6 col-xs-12">
                                     <p>Phone</p>
                                     <input type="number" />
                                 </div>
