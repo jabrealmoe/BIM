@@ -23,14 +23,15 @@
                     <div class="col-sm-9 col-xs-12">
                         <p>As a part of your Business Identity Management product you receive a complimentary personal identity management membership. Please use this portal to activate your membership to turn on your personal credit monitoring.</p>
 
+                        <form data-toggle="validator" role="form">
                         <div class="field">
                             <div class="row">
-                                <div class="col-sm-6 col-xs-12">
+                                <div class="form-group col-sm-6 col-xs-12">
                                     <p>First Name</p>
                                     <input class="fname" type="name"/>
                                 </div>
 
-                                <div class="col-sm-6 col-xs-12">
+                                <div class="form-group col-sm-6 col-xs-12">
                                     <p>Last Name</p>
                                     <input class="lname" type="name"/>
                                 </div>
@@ -39,12 +40,13 @@
                             <div class="clear"></div>
 
                             <div class="row">
-                                <div class="col-sm-6 col-xs-12 ">
+                                <div class="form-group col-sm-6 col-xs-12 ">
                                     <p>Email</p>
-                                    <input type="mail"/>
+                                    <input type="email" data-error="Bruh, that email address is invalid" placeholder="Email"/>
+                                    <div class="help-block with-errors"></div>
                                 </div>
 
-                                <div class="col-sm-6 col-xs-12">
+                                <div class="form-group col-sm-6 col-xs-12">
                                     <p>Phone</p>
                                     <input type="number"/>
                                 </div>
@@ -53,12 +55,12 @@
                             <div class="clear"></div>
 
                             <div class="row">
-                                <div class="col-sm-6 col-xs-12 ">
+                                <div class="form-group col-sm-6 col-xs-12 ">
                                     <p>Address 1</p>
                                     <input type="name"/>
                                 </div>
 
-                                <div class="col-sm-6 col-xs-12">
+                                <div class="form-group col-sm-6 col-xs-12">
                                     <p>Address 2</p>
                                     <input type="name"/>
                                 </div>
@@ -67,12 +69,12 @@
                             <div class="clear"></div>
 
                             <div class="row">
-                                <div class="col-sm-6 col-xs-6">
+                                <div class="form-group col-sm-6 col-xs-6">
                                     <p>City</p>
                                     <input class="city" type="name"/>
                                 </div>
 
-                                <div class="col-sm-2 col-xs-4">
+                                <div class="form-group col-sm-2 col-xs-4">
                                     <p>State</p>
                                     <select name="state">
                                         <option value="AL">AL</option>
@@ -130,7 +132,7 @@
 
                                 </div>
 
-                                <div class="col-sm-4 col-xs-12">
+                                <div class="form-group col-sm-4 col-xs-12">
                                     <p>Zip</p>
                                     <input class="zip" type="number"/>
                                 </div>
@@ -143,15 +145,15 @@
                                     <p>Social Security Number</p>
 
                                     <div class="row">
-                                        <div class="col-sm-4 col-xs-4">
+                                        <div class="form-group col-sm-4 col-xs-4">
                                             <input maxlength="3" required pattern="^d{3}$" type="name"/>
                                         </div>
 
-                                        <div style="padding:0;" class="col-sm-3 col-xs-4">
+                                        <div style="padding:0;" class="form-group col-sm-2 col-xs-4">
                                             <input maxlength="2" required pattern="^d{2}$" type="name"/>
                                         </div>
 
-                                        <div class="col-sm-5 col-xs-4">
+                                        <div class="form-group col-sm-5 col-xs-4">
                                             <input maxlength="4" required pattern="^d{4}$" type="name"/>
                                         </div>
                                     </div>
@@ -160,7 +162,7 @@
                                 <div class="col-sm-5 col-sm-offset-2 col-xs-12" style="padding-right: 1.5em">
                                     <p>Date of Birth</p>
                                     <div class="row">
-                                        <div class='input-group date' id='datetimepicker1'>
+                                        <div class='form-group input-group date' id='datetimepicker1'>
                                             <input type='address' class="datepicker" />
                                             <span class="input-group-addon">
                                                 <span class="glyphicon glyphicon-calendar"></span>
@@ -178,6 +180,7 @@
                                 </button></div>
                             </div>
                         </div>
+                        </form>
                     </div>
 
                     <div class="col-sm-3 col-xs-12">
