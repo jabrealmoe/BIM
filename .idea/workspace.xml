@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f62f1bf6-9c3a-49e1-9d8e-a9ee4845b7c9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/assets/javascripts/validator.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/member/index.gsp" afterPath="$PROJECT_DIR$/grails-app/views/member/index.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/assets/stylesheets/main.css" afterPath="$PROJECT_DIR$/grails-app/assets/stylesheets/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/assets/javascripts/owner.js" afterPath="$PROJECT_DIR$/grails-app/assets/javascripts/owner.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="f62f1bf6-9c3a-49e1-9d8e-a9ee4845b7c9" name="Default" comment="" />
     <ignored path="BIM.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -483,12 +477,12 @@
       <created>1434644280345</created>
       <option name="number" value="Default" />
       <updated>1434644280345</updated>
-      <workItem from="1434644282257" duration="12274000" />
+      <workItem from="1434644282257" duration="12356000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12274000" />
+    <option name="totallyTimeSpent" value="12356000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="717" extended-state="0" />
