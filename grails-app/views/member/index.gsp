@@ -134,7 +134,7 @@
 
                                 <div class="form-group col-sm-4 col-xs-12">
                                     <p>Zip</p>
-                                    <input class="zip" type="number"/>
+                                    <input class="zip" type="address"/>
                                 </div>
                             </div>
 
@@ -146,15 +146,15 @@
 
                                     <div class="row">
                                         <div class="form-group col-sm-4 col-xs-4">
-                                            <input maxlength="3" required pattern="^d{3}$" type="name"/>
+                                            <input maxlength="3" required pattern="[0-9]{3}" type="name"/>
                                         </div>
 
                                         <div style="padding:0;" class="form-group col-sm-2 col-xs-4">
-                                            <input maxlength="2" required pattern="^d{2}$" type="name"/>
+                                            <input maxlength="2" required pattern="[0-9]{2}" type="name"/>
                                         </div>
 
                                         <div class="form-group col-sm-5 col-xs-4">
-                                            <input maxlength="4" required pattern="^d{4}$" type="name"/>
+                                            <input maxlength="4" required pattern="[0-9]{4}" type="name"/>
                                         </div>
                                     </div>
                                 </div>
