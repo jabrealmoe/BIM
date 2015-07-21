@@ -1,0 +1,17 @@
+.classpath
+.project
+*/output/
+*.class
+.gradle
+# Exclude IDEA iws, and iml files except ipr file.
+*.iws
+*.swp
+*.bat
+*.war
+xars.txt
+/classes
+/lib
+/target
+/web-app/framework
+/web-app/plugins
+/web-app/WEB-INF/framework
