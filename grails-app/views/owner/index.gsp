@@ -18,22 +18,35 @@
 							<p><g:message code="default.amtcs.registration.message"/></p>
 							<div class="field l_field">
 								<div class="row">
-									<div class="col-sm-8 col-xs-12">
-										<p>Member Number</p>
-										<input  type="number" />
+									<div class="form-group col-sm-8 col-xs-12">
+										<p><g:message code="default.amtcs.label.member" /></p>
+										<input data-error="${message(code:'default.amtcs.data.error.memberNumber')}" name="memberNumber" pattern="^(IB|ib|Ib|iB){0,1}\d{8}$" required type="name" maxlength="10" title="${message( code:'default.amtcs.title.hover.memberNumber')}" />
+										<div class="help-block with-errors"></div>
 									</div>
-									<div class="col-sm-6 col-xs-12">
-										<p>Zip Code</p>
-										<input  type="number" />
+
+								</div>
+
+								<div class="clear"></div>
+
+								<div class="row">
+									<div class="form-group col-sm-6 col-xs-12 ">
+										<p><g:message code="default.amtcs.label.zipCode" /></p>
+										<input id="zipCode" name="zipCode" type="name"  required maxlength="10" title="${message(code:'default.amtcs.title.hover.zip')}" pattern="^\d{5}(?:[-\s]\d{4})?$" data-error="${message(code:'default.amtcs.data.error.zipCode')}" class="removeLetters zip"/>
+										<div class="help-block with-errors"></div>
 									</div>
+
+
 								</div>
 								<div class="clear"></div>
+
 								<div class="row forgot">
-									<div class="col-sm-6 col-xs-12">
-										<a class="showTip L1" href="#">Forgot Member Number?</a>
-									</div>
-									<div class="col-sm-6 col-xs-12">
-										<div align="right"><button>Next Step &nbsp;&nbsp;<i class="fa fa-arrow-circle-right"></i></button></div>
+									<div class="form-group">
+										<div class="col-sm-8 col-xs-12">
+											<a  class = "thickbox test"
+												href="${resource(dir:'images', file:'hover.png')}"><g:message code="default.amtcs.link.forgotMessage" /></a>
+										</div>
+										<div align="right" class="col-sm-4 "><button type="submit" class="btn btn-primary"><g:message code="default.amtcs.button.label.submit" />  &nbsp;&nbsp;<i class="fa fa-arrow-circle-right"></i>
+										</button></div>
 									</div>
 								</div>
 							</div>

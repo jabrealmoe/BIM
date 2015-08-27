@@ -5,7 +5,24 @@ $( function () {
     $( '.amtcsDatePicker' ).datepicker( {
         startDate: '-100y',
         endDate: '-18y'
-    } )
+    } ).on('changeDate', function(e){
+        var someVal = $('#dobPicker1' ).val();
+        console.log(someVal) ;
+        $('#dobPicker1' ).bootstrapValidator('revalidateField','dob');
+    });
+
+    $('#dobPicker1' ).bootstrapValidator({
+        fields: {
+            dob:{
+                trigger: 'blur',
+                validators: {
+                    notEmpty: {
+                        message: 'Your first name is required'
+                    }
+                }
+            }
+        }
+    })
 } )
 
 $( function () {
