@@ -191,7 +191,7 @@ body{
 	padding: 0 0 0 10px;
 	margin: 21px 0 0 0;
 }
-input[type="name"],input[type="address"],input[type="number"],input[type="mail"],select{
+input[type="name"],input[type="email"],input[type="address"],input[type="number"],input[type="mail"],select{
 	width:100%;
 	background: #758492;
 	border: none;

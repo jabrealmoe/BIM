@@ -11,6 +11,7 @@ class OwnerController {
     static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
 
     def index() {
+
     }
 
 }
