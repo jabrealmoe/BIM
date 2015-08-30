@@ -24,7 +24,6 @@ body{
 
 }
 
-
 .full_body:after{
     display:block;
     clear:both;
@@ -177,7 +176,7 @@ body{
 }
 
 .field{
-    color:#FFFFFF;
+    color:#ffffff;
     background:#314356;
     border-radius:4px;
     font-size:18px;

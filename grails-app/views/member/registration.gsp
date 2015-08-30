@@ -163,7 +163,7 @@
                             <div class="clear"></div>
 
                             <div class="row">
-                                <div class="col-sm-5 ">
+                                <div class="col-sm-6 col-xs-12 ">
                                     <label for="ssn1">Social Security Number</label>
 
                                     <div class="row">
@@ -183,7 +183,7 @@
                                     </div>
                                 </div>
 
-                                <div class="col-sm-7 col-xs-12" >
+                                <div class="col-sm-6 col-xs-12" >
                                     <label for="dobPicker1"><g:message code="default.amtcs.label.dob" /></label>
 
                                     <div class="row">

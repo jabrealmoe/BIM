@@ -35,7 +35,6 @@
 										<div class="help-block with-errors"></div>
 									</div>
 
-
 								</div>
 								<div class="clear"></div>
 

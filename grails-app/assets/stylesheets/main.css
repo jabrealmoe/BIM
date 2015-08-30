@@ -1,29 +1,38 @@
+
+ @font-face {
+  font-family:'OpenSans-Light_0';
+  src: url('../fonts/OpenSans-Light_0.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;}
+ @font-face {
+  font-family:'OpenSans-Bold_0';
+  src: url('../fonts/OpenSans-Bold_0.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;}
 @font-face {
-	font-family: 'OpenSans-Light_0';
-	src: url('../fonts/OpenSans-Light_0.woff') format('woff');
-	font-weight: normal;
-	font-style: normal;}
-@font-face {
-	font-family: 'OpenSans-Bold_0';
-	src: url('../fonts/OpenSans-Bold_0.woff') format('woff');
-	font-weight: normal;
-	font-style: normal;}
-@font-face {
-	font-family: 'OpenSans-Regular_0';
-	src: url('../fonts/OpenSans-Regular_0.woff') format('woff');
-	font-weight: normal;
-	font-style: normal;}
+  font-family:'OpenSans-Regular_0';
+  src: url('../fonts/OpenSans-Regular_0.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;}
 body{
 	width:100%;
 	margin:0;
 	padding:0;
-	font-family: 'OpenSans-Light_0';
+	font-family:'OpenSans-Light_0';
+	font-weight:300;
 	background:url('../images/bg.jpg') no-repeat;
 	background-size: cover;
 
 
 }
-
+.row {
+    margin-right:0px;
+    margin-left:0px;
+}
+.logo img{
+	max-width:100%;
+	padding-left:1%;
+}
 
 .full_body:after{
 	display:block;
@@ -54,7 +63,7 @@ body{
 .header_main ul{
 	list-style:none;
 	margin:0;
-	padding:0;
+	padding-left:1%;
 
 }
 .header_main ul li{
@@ -175,14 +184,26 @@ body{
 .reg_img {
 	padding-top:117px;
 }
+.reg_img2 img{
+    top: 34%;
+    position: fixed;
+    right: 6%;
 
+}
+.reg_img img{
+    top:52%;
+    position: fixed;
+    right:2%;
+
+}
 .field{
 	color:#FFFFFF;
 	/*background:pink;*/
-	background: #314356;
+	background:#314356;
 	border-radius:4px;
 	font-size:18px;
 	padding:10px;
+	z-index: 999999;
 }
 .field p{
 	font-size:18px;
@@ -190,6 +211,13 @@ body{
 	opacity: 0.7;
 	padding: 0 0 0 10px;
 	margin: 21px 0 0 0;
+}
+.field label{
+	font-size: 18px;
+	color: #FFF;
+	opacity: 0.7;
+	padding: 0px 0px 0px 10px;
+	margin: 21px 0px 0px;
 }
 input[type="name"],input[type="email"],input[type="address"],input[type="number"],input[type="mail"],select{
 	width:100%;
@@ -235,8 +263,16 @@ input[type="name"],input[type="email"],input[type="address"],input[type="number"
 	position:relative;
 }
 
-
-
+.datepicker td, .datepicker th {
+    text-align: center;
+    height: 20px;
+    border-radius: 4px;
+    border: medium none;
+    width: 38px;
+}
+.datepicker table tr td span{
+	width:31%;
+}
 
 
 
@@ -349,6 +385,11 @@ input[type="name"],input[type="email"],input[type="address"],input[type="number"
 	.header_main ul li{
 		float:none;
 	}
+	.reg_img img {
+    position: fixed;
+    right: 2%;
+    top: 33%;
+}
 }
 
 
