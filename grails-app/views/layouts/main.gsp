@@ -30,6 +30,7 @@
 								<li><a href="#">Premier</a></li>
 							</ul>
 						</div>
+						<div class="clear"></div>
 					</div>
 
 				</div>

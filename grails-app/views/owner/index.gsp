@@ -7,6 +7,7 @@
 		<title>Member Signin</title>
 	</head>
 	<body>
+	<div class="clear"></div>
 	<section>
 		<div class="content_area">
 			<div class="col-sm-3 col-xs-12" ></div>
