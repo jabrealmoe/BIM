@@ -50,8 +50,8 @@ body{
 }
 .headerArea{
 	width:100%;
-	background:rgba(30,56,91,.5);
-	-moz-height:127px;
+	background:url('../images/top_bg.png') no-repeat;
+	background-size:100% 70%;
 	
 }
 .headerArea:after{
